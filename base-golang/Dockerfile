@@ -28,3 +28,5 @@ ENV GO111MODULE auto
 ENV GOPROXY https://goproxy.cn,direct
 
 WORKDIR ${GOPATH}
+
+ENV GOFLAGS --buildvcs=false
